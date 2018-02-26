@@ -1,0 +1,16 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#hide {
+  background-color: blue;
+  color:white;
+  outline: none;
+}
+
+#show {
+  background-color: pink;
+  color: white;
+  outline: none;
+}

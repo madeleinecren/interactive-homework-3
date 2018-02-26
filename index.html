@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<h1>:~)</h1>
+
+<p> <button id="hide">Goodbye</button></p>
+
+ <button id="show">Hello</button>
+
+<script src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+
+
+
+<script>
+$(document).ready(function(){
+    // jQuery, find the hide ID and wait for the user to click its element (button).
+
+    $("#hide").click(function(){
+        // jQuery, when the user clicks the Hide button, find all p tags and hide them!
+        $("p").hide();
+    });
+    // jQuery, find the show ID and wait for the user to click its element (button).
+    $("#show").click(function(){
+        // jQuery, when the user clicks the Show button, reshow or keep showing all p tags!
+        $("p").show();
+    // that's it
+    });
+});
